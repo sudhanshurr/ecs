@@ -1,5 +1,5 @@
 #!/bin/bash
-chown -R root
+sudo chown -R root
 sudo docker-compose build
 sudo docker-compose up
 sudo $(aws ecr get-login --no-include-email --region us-west-2)
