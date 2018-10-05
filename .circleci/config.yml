@@ -8,13 +8,4 @@ jobs:
       - checkout
       - run:
           name: install awscli
-          command: ./.circleci/setup.sh
-      - run:
-          name: Setup awscli
-          command: ./.circleci/aws.sh
-      - run:
-          name: install boto3
-          command: pip install boto3
-      - run:
-          name: run script
-command:  ./.circleci/deploy.sh
+          command: ./.circleci/deploy.sh
