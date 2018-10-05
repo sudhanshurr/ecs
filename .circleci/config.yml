@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run:
           name: build docker
-          command: ./.circleci/deploy.sh
+          command: ./.circleci/setup.sh
