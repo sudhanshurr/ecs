@@ -17,4 +17,4 @@ jobs:
           command: pip install boto3
       - run:
           name: run script
-command:  ./deploy.sh
+command:  ./.circleci/deploy.sh
