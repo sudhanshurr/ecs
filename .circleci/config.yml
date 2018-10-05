@@ -17,4 +17,4 @@ jobs:
           command: pip install boto3
       - run:
           name: run script
-command: python ./deploy.sh
+command:  ./deploy.sh
